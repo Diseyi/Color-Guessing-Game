@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 80%;
+  margin: 6em auto;
+}
+h1,
+h2,
+#level {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+h2 {
+  border: 1px solid;
+  padding: 0.5em;
+}
+#level {
+  display: flex;
+}
+.levels {
+    background-color: aqua;
+  border: 1px solid;
+  flex: 1;
+  font-size: large;
+  padding: 0.5em;
+  text-align: center;
+  cursor: pointer;
+}
+.levels:hover {
+    opacity: 0.5;
+}
+#container {
+  border: 1px solid;
+  background: #ffffff;
+  width: 300px;
+  height: 300px;
+  margin: 0.5em auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.square {
+  border-radius: 5em;
+  width: 90px;
+  margin: 2px;
+}
+.square:hover {
+    opacity: 0.7;
+}
